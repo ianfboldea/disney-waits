@@ -1,0 +1,22 @@
+{
+  "name": "wait_times",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Ian Boldea",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "react-router-dom": "^5.1.2",
+    "themeparks": "^5.1.35"
+  }
+}
